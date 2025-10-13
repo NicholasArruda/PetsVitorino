@@ -2,7 +2,7 @@
 
 Bem-vindo à PetsVitorino! Este é um site de vendas dedicado a oferecer os melhores pássaros para você. O site foi desenvolvido utilizando HTML, CSS e JavaScript, e foi projetado para proporcionar uma experiência simples e agradável para nossos usuários.
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a329396d-40f2-40c1-bdef-e3935918ee4c" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2b09a6eb-495c-400a-9099-d715e64e25a0" />
 
 ## Descrição do Projeto
 
