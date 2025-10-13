@@ -12,14 +12,6 @@ Este projeto consiste em uma loja virtual de pássaros, onde os usuários podem 
 - **Design responsivo**: A interface foi construída para se ajustar perfeitamente a dispositivos móveis e desktops.
 - **Interatividade com JavaScript**: O uso de JavaScript permite interações dinâmicas, como a seleção de diferentes aves e a adição delas ao carrinho.
 
-## Funcionalidades
-
-- **Página Inicial**: Exibe uma introdução à loja e apresenta os pássaros mais populares.
-- **Catálogo de Pássaros**: Listagem de todas as espécies disponíveis, com imagens, preços e descrições.
-- **Carrinho de Compras**: Permite que o usuário adicione pássaros ao carrinho e visualize o total da compra.
-- **Filtros de Pesquisa**: Possibilidade de filtrar os produtos por tipo de pássaro, preço, e outras características.
-- **Formulário de Contato**: Um simples formulário para que os clientes possam fazer perguntas ou tirar dúvidas.
-
 ## Tecnologias Utilizadas
 
 - **HTML5**: Estruturação básica do site, como a criação de páginas e definição de conteúdo.
