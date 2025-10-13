@@ -1,0 +1,125 @@
+    :root {
+        --orange-primary: #654a21;
+        --orange-secondary: #ffdda9;
+        --orange-dark: #e67e22;
+        --white: #ffffff;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        background-color: var(--orange-secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .login-container {
+        background-color: var(--white);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+    .login-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .login-header h1 {
+         color: var(--orange-primary);
+         font-size: 2rem;
+         margin-top: 15px; /* Aumenta o espaço entre a imagem e o título */
+    }
+    .logo {
+        position: relative;
+        width: 75px; /* Diminuído para 100px */
+        height: 75px; /* Diminuído para 100px */
+        overflow: hidden;
+        margin: 0 auto; /* Centraliza o logo */
+    }
+    .pet {
+        position: absolute;
+        width: 100%; /* Ocupa toda a largura do contêiner */
+        height: 100%; /* Ocupa toda a altura do contêiner */
+        background-size: contain; /* Mantém a proporção da imagem */
+        opacity: 0;
+        animation: fade 6s infinite; /* 6s para alternar entre 3 pets */
+    }  
+    .pet:nth-child(1) {
+        background-image: url('imgs/cachorro_cinza.png'); /* Imagem do primeiro pet */
+        animation-delay: 0s; /* Primeira imagem aparece primeiro */
+    }
+    .pet:nth-child(2) {
+        background-image: url('imgs/cachorro_laranja.png'); /* Imagem do segundo pet */
+        animation-delay: 3s; /* Segunda imagem aparece depois de 3s */
+    }
+    .pet:nth-child(3) {
+        background-image: url('imgs/cachorro_cinza.png'); /* Imagem do terceiro pet */
+        animation-delay: 6s; /* Terceira imagem aparece depois de 6s */
+    }
+    @keyframes fade {
+        0%, 100% { opacity: 0; }
+        25%, 75% { opacity: 1; }
+    }
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 0.8rem;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+    .form-group input:focus {
+        border-color: var(--orange-primary);
+    }
+    .login-button {
+        background-color: var(--orange-primary);
+        color: var(--white);
+        border: none;
+        padding: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 1.1rem;
+        transition: background-color 0.3s;
+    }
+    .login-button:hover {
+        background-color: var(--orange-dark);
+    }
+    .register-link {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .register-link a {
+        color: var(--orange-primary);
+        text-decoration: none;
+    }
+    .register-link a:hover {
+        text-decoration: underline;
+    }
+    .back-link {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .back-link:hover {
+        text-decoration : underline;
+    }
